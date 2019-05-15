@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Munch Gallery</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <script>
+      this.customElements ||
+        document.write(
+          '<script src="//unpkg.com/document-register-element"><\x2fscript>',
+        );
+    </script>
+    <script src="//unpkg.com/built-in-element"></script>
+    <script src="../dist/progressive-image.js"></script>
+    <link rel="stylesheet" href="../dist/progressive-image.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <template id="artwork-template">
+      <div class="artwork">
+        <div class="frame"></div>
+        <div class="artwork-name"></div>
+      </div>
+    </template>
+    <script src="index.js"></script>
+  </body>
+</html>

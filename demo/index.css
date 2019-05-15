@@ -1,0 +1,94 @@
+body {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+
+  display: flex;
+
+  margin: 0;
+  min-height: 100vh;
+
+  background: #fffaf0;
+}
+
+img {
+  display: block;
+
+  border: solid 2px;
+  border-bottom-color: #ffe;
+  border-left-color: #eed;
+  border-right-color: #eed;
+  border-top-color: #ccb;
+  width: 80vw;
+  max-width: 100%;
+  height: auto;
+}
+@media (min-width: 415px) {
+  img {
+    width: 50vw;
+  }
+}
+
+.frame {
+  position: relative;
+
+  display: inline-block;
+
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25) inset,
+    0 5px 10px 5px rgba(0, 0, 0, 0.25);
+  border: solid 5vmin #eee;
+  border-bottom-color: #fff;
+  border-left-color: #eee;
+  border-radius: 2px;
+  border-right-color: #eee;
+  border-top-color: #ddd;
+  box-sizing: border-box;
+  padding: 3vmin;
+
+  background: #ddc;
+
+  text-align: center;
+}
+.frame:before {
+  content: '';
+
+  position: absolute;
+  top: -2vmin;
+  bottom: -2vmin;
+  left: -2vmin;
+  right: -2vmin;
+
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25) inset;
+  border-radius: 2px;
+}
+.frame:after {
+  content: '';
+
+  position: absolute;
+  top: -2.5vmin;
+  bottom: -2.5vmin;
+  left: -2.5vmin;
+  right: -2.5vmin;
+
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+.artwork {
+  flex-flow: column;
+  justify-content: center;
+
+  display: flex;
+
+  margin-bottom: 5em;
+}
+
+.artwork-name {
+  display: inline-block;
+
+  margin: 1.5em auto;
+  box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.25);
+  padding: 0.5em;
+
+  background: #fff;
+}
