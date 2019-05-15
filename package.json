@@ -1,0 +1,38 @@
+{
+  "name": "progressive-image",
+  "version": "0.0.1",
+  "description": "Enriches the native `img` element by using multiple Progressive Image Rendering strategies",
+  "main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnakinYuen/progressive-image.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "progressive",
+    "image",
+    "img",
+    "lazy loading",
+    "Intersection Observer"
+  ],
+  "author": "Anakin Yuen",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^4.1.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify-es": "^1.0.4",
+    "prettier": "^1.17.1",
+    "web-component-tester": "^6.9.2"
+  }
+}
