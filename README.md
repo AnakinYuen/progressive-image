@@ -4,6 +4,9 @@
 
 # progressive-image
 
+[![license](https://img.shields.io/npm/l/@anakinyuen/progressive-image.svg)](https://github.com/AnakinYuen/progressive-image/blob/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/@anakinyuen/progressive-image.svg)](https://www.npmjs.com/package/@anakinyuen/progressive-image)
+[![npm bundle size](https://img.shields.io/bundlephobia/minzip/@anakinyuen/progressive-image.svg)]()
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 The customized build-in element that enriches the native `img` element by using multiple Progressive Image Rendering strategies.
