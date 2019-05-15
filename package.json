@@ -1,5 +1,5 @@
 {
-  "name": "progressive-image",
+  "name": "@anakinyuen/progressive-image",
   "version": "0.0.1",
   "description": "Enriches the native `img` element by using multiple Progressive Image Rendering strategies",
   "main": "./src/index.js",
