@@ -1,0 +1,24 @@
+@keyframes progressive-image-loading {
+  0% {
+    background-position: -50vw 0;
+  }
+  100% {
+    background-position: 50vw 0;
+  }
+}
+
+img[is='progressive-image'][data-state='blur'] {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  filter: blur(0.2em);
+}
+img[is='progressive-image'][data-state='clear'] {
+  transition: filter 1s;
+  filter: blur(0);
+}
+img[is='progressive-image'][data-state='loading'] {
+  animation: progressive-image-loading 1.8s infinite;
+  background: #f6f6f6;
+  background: linear-gradient(to right, #d4d4d4 8%, #e4e2e2 18%, #d4d4d4 33%);
+  background-size: 100vw;
+}
