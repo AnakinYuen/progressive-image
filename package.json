@@ -8,6 +8,7 @@
     "url": "https://github.com/AnakinYuen/progressive-image.git"
   },
   "scripts": {
+    "build": "gulp build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
