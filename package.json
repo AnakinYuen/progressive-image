@@ -9,6 +9,7 @@
   },
   "scripts": {
     "build": "gulp build",
+    "web-component-tester": "npx bower install Polymer/web-component-tester --save",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
